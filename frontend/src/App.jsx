@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ImageUploader } from './components/ImageUploader';
 import { PhotoGrid } from './components/PhotoGrid';
 
-const API_BASE_URL = "https://bug-free-cod-5g64gvrpvxj9hxv-8000.app.github.dev";
+const API_BASE_URL = "https://sofia-primera.onrender.com/";
 
 export default function App() {
   const [photos, setPhotos] = useState([]);
