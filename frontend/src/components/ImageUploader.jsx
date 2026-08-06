@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_BASE_URL = "https://sofia-primera.onrender.com/";
+const API_BASE_URL = "https://sofia-primera.onrender.com";
 
 export function ImageUploader({ onUploadSuccess }) {
   const [uploading, setUploading] = useState(false);
